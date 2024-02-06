@@ -145,6 +145,10 @@ class Frame
       elsif current_frame.special == "spare"
         puts "You got a Spare!"
       end
+
+      if player.total_score == 300
+        puts "Congratulations, #{player.name}! You rolled a perfect game!"
+      end
     end
   
     def display_results
