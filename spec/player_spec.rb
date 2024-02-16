@@ -20,5 +20,4 @@ describe Player do
     end
   end
 
-  # Write more tests for other methods as needed
 end
